@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Max Temperature</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">
+                    <span style="font-size:25px">Latitude</span>
+                </a>
+            </div>
+            <div class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavBar-main">
+                <span class="navbar-toggler-icon"></span>
+            </div>
+        <div class="collapse navbar-collapse" id="NavBar-main">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Plots
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
+                    <a class="dropdown-item" href="humidity.html">Humidity</a>
+                    <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                    <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="comparison.html">Comparison</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="data.html">Data</a>
+            </li>
+          </ul>
+        </div>
+     </nav>
+
+     <div class="container-fluid" style="padding:100px">
+      <div class="row">
+          <div class="col-md-7 col-sm-12">
+              <div class="card">
+                  <div class="card-body">
+                      <h2 class="card-title">Latitude vs. Cloudiness</h2>
+                      <hr>
+                      <div class = "box">
+                          <img class="img-fluid" src="./Resources/3_WeatherPy_Lat_vs_Cloudiness.png" alt="Max Temp"  style="float:center" height ="200" width="400">
+                          <p class="text1">
+                              In this case this visualization is about cloudiness, we can see the comparison between the Latitude and the Cloudiness trying to find a relationship and explain if the Latitude is directly related to the amount of cloudiness
+                              Or something like that hope you enjoy reading this.
+                          </p>
+                      </div> 
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-md-5">
+              <div class="card">
+                  <div class="card-body">
+                      <h2 class="card-title">Visualizations</h2>
+                      <hr>
+                      <div class="row row-cols-1 row-cols-md-2">
+                        <div class="col mb-4">
+                        <div class="card">
+                            <a href="maxtemp.html" >
+                                <img src="./Resources/1_WeatherPy_Temp.vs.Lat.png" alt="Max Temp" class="img-fluid" height ="175" width="250">
+                            </a>
+                        </div>
+                        </div>
+                        <div class="col mb-4">
+                        <div class="card">
+                            <a href="humidity.html" >
+                                <img src="./Resources/2_WeatherPy_Lat_vs_Humidity.png" alt="Humidity" class="img-fluid" height ="175" width="250">
+                            </a>
+                        </div>
+                        </div>
+                        <div class="col mb-4">
+                        <div class="card">
+                            <a href="cloudiness.html" >
+                                <img src="./Resources/3_WeatherPy_Lat_vs_Cloudiness.png" alt="Cloudiness" class="img-fluid" height ="175" width="250">
+                            </a>
+                        </div>
+                        </div>
+                        <div class="col mb-4">
+                        <div class="card">
+                            <a href="windspeed.html" >
+                                <img src="./Resources/4_WeatherPy_WindSpeed.vs.Lat.png" alt="Wind Speed" class="img-fluid" height ="175" width="250">
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+              </div>
+              </div>
+          </div>
+     
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
